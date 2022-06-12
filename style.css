@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.left-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-wrapper img {
+    height: 45rem;
+}
+
+.right-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    /* min-height: 35rem; */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    width: 80%;
+    padding: 1.3rem 0;
+    margin: 0.5rem;
+}
+
+.box img {
+    margin: 10px 0;
+}
+
+.box p {
+    color: #8E8E8E;
+}
+
+#account {
+    border-radius: 50%;
+    height: 5rem;
+}
+
+#continue {
+    text-decoration: none;
+    background-color: #0095F6;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 5px 9px;
+    margin: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0095F6;
+    font-weight: 700;
+}
+
+.download-app {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download-app img {
+    width: 9rem;
+}
+
+.download-app span {
+    margin: 1.2rem;
+}
